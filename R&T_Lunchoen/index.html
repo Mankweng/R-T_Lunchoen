@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reamogetse & Tshella — Luncheon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/wedding.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <!-- Open Graph preview -->
+    <meta property="og:title" content="Reamogetse & Tshella — Luncheon" />
+    <meta property="og:description" content="Join us to celebrate our special day! May 01, 2026" />
+    <meta property="og:image" content="https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/Images/preview.jpeg" />
+    <meta property="og:url" content="https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="670" />
+</head>
+<body>
+
+<nav id="mainNav">
+    <a href="index.html" class="nav-brand">R &amp; T</a>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#details">Details</a></li>
+        <li><a href="rsvp.html">RSVP</a></li>
+    </ul>
+    <button class="nav-hamburger" onclick="toggleMenu()">&#9776;</button>
+</nav>
+
+<div class="sub-nav" id="subNav">
+    <a href="index.html">Home</a>
+    <a href="#story">Our Story</a>
+    <a href="#details">Details</a>
+    <a href="rsvp.html">RSVP</a>
+</div>
+
+<!-- HERO -->
+<section id="home">
+    <div class="hero-overlay"></div>
+
+    <img src="Images/floral-left.png" class="floral-corner top-left" alt="" />
+    <img src="Images/floral-right.png" class="floral-corner top-right" alt="" />
+
+    <div class="hero-content">
+        <div class="hero-names">
+            Reamogetse &amp;<br>Tshella
+        </div>
+        <div class="hero-divider"></div>
+
+        <div class="hero-video-container">
+            <video id="weddingVideo" autoplay muted loop playsinline>
+                <source src="Video/wedding.mp4" type="video/mp4">
+            </video>
+            <button class="sound-btn" id="soundBtn" onclick="toggleSound()">🔇 Tap to Unmute</button>
+        </div>
+
+        <div class="hero-date">May · 01 · 2026</div>
+        <a href="rsvp.html" class="btn-primary">RSVP Now</a>
+    </div>
+    <div class="scroll-indicator">Scroll</div>
+</section>
+
+<!-- OUR STORY -->
+<section id="story" class="section-white">
+    <div class="section-inner story-layout">
+        <img style="height:100px; width:auto; position:absolute;" src="Images/Cow.png" class="story-side-img" alt="Our Story Photo" />
+        <div class="story-text-content">
+            <p class="section-subtitle">How It Began</p>
+            <h2 class="section-title">Our Story</h2>
+            <div class="section-divider"></div>
+            <p class="story-text">
+                Our love story began with two hearts finding comfort in each other during life's ordinary
+                moments. What started as a simple connection slowly grew into something deeper — built on
+                friendship, patience, laughter, and unwavering support.<br /><br />
+                Along the way, we discovered that love is not only found in life's big milestones, but also in
+                the quiet moments, shared dreams, and the choice to stand by each other every single day. With
+                time, our bond grew stronger and our journey became a beautiful partnership filled with faith,
+                growth, and understanding. Now, with grateful hearts and endless love, we begin the next
+                chapter of our story as husband and wife. ❤️
+            </p>
+            <div class="story-btn-wrap">
+                <a href="rsvp.html" class="btn-secondary">Join Us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- DETAILS -->
+<section id="details" class="section-cream">
+    <div class="section-inner details-layout">
+        <div>
+            <p class="section-subtitle">The Big Day</p>
+            <h2 class="section-title">Details</h2>
+            <div class="section-divider"></div>
+            <div class="details-grid">
+                <div class="detail-card">
+                    <div class="detail-icon">⛪</div>
+                    <div class="detail-card-title">Ceremony</div>
+                    <p>
+                        <strong>12:00 PM</strong>
+                        CNR PYTHON & MAMBA STR<br>
+                        SERALA VIEW<br>
+                        POLOKWANE<br>
+                        UNITING REFORM CHURCH
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img style="height:100px; width:auto; position:absolute;" src="Images/Cow.png" class="details-side-img" alt="Details Photo" />
+    </div>
+</section>
+
+<footer>
+    <div class="footer-names">R &amp; T</div>
+    <div class="footer-date">May · 01 · 2026</div>
+    <p class="footer-copy">&copy; 2026 — REAMOGETSE & TSHELLA</p>
+</footer>
+
+<script src="js/wedding.js"></script>
+</body>
+</html>

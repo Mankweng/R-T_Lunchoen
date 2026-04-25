@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RSVP - R&T Wedding</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/wedding.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body>
+
+<nav id="mainNav">
+    <a href="index.html" class="nav-brand">R &amp; T</a>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#story">Our Story</a></li>
+        <li><a href="index.html#details">Details</a></li>
+        <li><a href="rsvp.html">RSVP</a></li>
+    </ul>
+    <button class="nav-hamburger" onclick="toggleMenu()">&#9776;</button>
+</nav>
+
+<div class="sub-nav" id="subNav">
+    <a href="index.html">Home</a>
+    <a href="index.html#story">Our Story</a>
+    <a href="index.html#details">Details</a>
+    <a href="rsvp.html">RSVP</a>
+</div>
+
+<section id="rsvp" class="section-white rsvp-page">
+    <div class="section-inner">
+        <p class="section-subtitle">Please Respond By 5th of April</p>
+        <h2 class="section-title">RSVP</h2>
+        <p class="rsvp-notice">⚠️ Please note: This invitation is not transferable.</p>
+        <div class="section-divider"></div>
+
+        <div class="rsvp-form">
+            <iframe data-tally-src="https://tally.so/embed/kdAo9Z?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+                    loading="lazy"
+                    width="100%"
+                    height="500"
+                    frameborder="0"
+                    marginheight="0"
+                    marginwidth="0"
+                    title="RSVP Form">
+            </iframe>
+            <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-names">R &amp; T</div>
+    <div class="footer-date">May · 01 · 2026</div>
+    <p class="footer-copy">&copy; 2026 — REAMOGETSE & TSHELLA</p>
+</footer>
+
+<script src="js/wedding.js"></script>
+</body>
+</html>
